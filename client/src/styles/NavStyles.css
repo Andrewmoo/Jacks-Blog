@@ -1,0 +1,39 @@
+.middleNav ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+    width: 700px;
+    text-align: center;
+    color: black;
+    
+  }
+
+.middleNav li{
+        display: inline-block;
+        border-radius: 8px;
+        transition: 0.3s ease background-color;
+      
+  }
+
+.middleNav li :hover{
+  background-color: #fafafa;
+}
+
+.middleNav a{
+      display: inline-block;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: var(--gray-1);
+      outline: none;
+  }
+
+.Logo{
+    color:#3f51b5;
+    float: left;
+}
+
+.LogoImg{
+    float: left;
+    height: 30px;
+}
